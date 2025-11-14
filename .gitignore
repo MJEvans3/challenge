@@ -1,0 +1,46 @@
+# Editor and IDE files
+.claude/
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gradle files
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Log files
+*.log
+logs/
+
+# Node.js (for frontend)
+workflow-frontend/node_modules/
+workflow-frontend/.next/
+workflow-frontend/out/
+workflow-frontend/dist/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Keep Gradle wrapper jar
+!gradle/wrapper/gradle-wrapper.jar
